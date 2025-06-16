@@ -16,6 +16,9 @@ header
     top:0px;
     z-index: 1;
 }
+#about, #projects, #skills, #contact {
+  scroll-margin-top: 150px; /* or height of your fixed header */
+}
 
 .section-title
 {
