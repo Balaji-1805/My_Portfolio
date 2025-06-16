@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="info">
+            <img src="./balaji1.jpg" alt="">
+            <div class="details">
+                <p>Uggina Balaji</p>
+                <span>Frontend Developer</span>
+            </div>
+        </div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="about-me" id="about">
+            <h2 class="section-title">About Me</h2>
+            <p>Hi, I'm <span>Uggina Balaji</span>, a passionate developer and designer focused on building visually stunning, high-performance web apps. I love turning ideas into beautifully crafted products. Whether collaborating with teams or working solo, I always strive for clean code and intuitive UX.</p>
+        </div>
+        <div class="projects section-title" id="projects">
+            <h2>My Projects</h2>
+            <div class="project-section">
+                <div class="project">
+                    <img src="./LandingPage.png" alt="">
+                    <h3 class="project-title">Landing Page</h3>
+                    <p class="project-info">Designed and Created a Beautiful and Mobile Resposive Landing Page</p>
+                    <div class="technologies">
+                        <p class="tech">HTML</p>
+                        <p class="tech">CSS</p>
+                    </div>
+                    <button class="btn">View Project</button>
+                </div>
+                <div class="project">
+                    <img src="./WeatherProject.png" alt="">
+                    <h3 class="project-title">Weather API</h3>
+                    <p class="project-info">Developed a Weather API project,it displays the weather details of particular city.</p>
+                    <div class="technologies">
+                        <p class="tech">HTML</p>
+                        <p class="tech">CSS</p>
+                        <p class="tech">JavaScript</p>
+                    </div>
+                    <button class="btn">View Project</button>
+                </div>
+                <div class="project">
+                    <img src="./ToDoList.png" alt="">
+                    <h3 class="project-title">To-Do List Application</h3>
+                    <p class="project-info">Build a ToDo List Application,where we can add,delete,edit and update tasks.</p>
+                    <div class="technologies">
+                        <p class="tech">HTML</p>
+                        <p class="tech">CSS</p>
+                        <p class="tech">JavaScript</p>
+                    </div>
+                    <button class="btn">View Project</button>
+                </div>
+            </div>
+        </div>
+        <div class="skills section-title" id="skills">
+            <h2>Skills & Tools</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="./html5.svg" alt="html-icon" class="skill-image">
+                    <p>HTML5</p>
+                </div>
+                <div class="skill">
+                    <img src="./css3.svg" alt="css-icon" class="skill-image">
+                    <p>CSS3</p>
+                </div>
+                <div class="skill">
+                    <img src="./js.svg" alt="js-icon" class="skill-image">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill">
+                    <img src="./react.svg" alt="react-icon" class="skill-image">
+                    <p>React</p>
+                </div>
+                <div class="skill">
+                    <img src="./git.svg" alt="git-icon" class="skill-image">
+                    <p>Git</p>
+                </div>
+                <div class="skill">
+                    <img src="./github.svg" alt="git-icon" class="skill-image">
+                    <p>Git</p>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <div id="toast">
+                Message Sent Successfully!
+            </div>
+            <div class="contact-container">
+                <h2>Contact Me</h2>
+                <form action="https://formsubmit.co/ugginabalaji2003@gmail.com" method="POST" id="contactForm">
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                    <textarea name="message" id="message" rows="6" placeholder="Your Message"></textarea>
+
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="#">
+
+                    <input type="submit" value="Send" >
+                </form>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        &copy;2025 Uggina Balaji
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
