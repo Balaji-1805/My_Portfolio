@@ -239,11 +239,11 @@ main
     height:50px;
     font-size: 1rem;
     border-radius: 6px;
-    /* position: relative; */
+    position: relative;
     visibility: hidden;
 }
 
-#toast.show
+#toast .show
 {
     visibility: visible;
     animation: fadein 0.5s fadeout 0.5s 2s;
