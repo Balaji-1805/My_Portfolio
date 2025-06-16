@@ -4,7 +4,7 @@ form.addEventListener('submit',function(e)
 {
    e.preventDefault();
    const formdata=new FormData(this);
-   fetch("https:formsubmit.co/ugginabalaji2003@gmail.com",{
+   fetch("https://formsubmit.co/ugginabalaji2003@gmail.com",{
     method:"POST",
     body:formdata,
     headers:{Accept:"application/json"},
@@ -14,6 +14,6 @@ form.addEventListener('submit',function(e)
         setTimeout(()=>{
             toast.classList.remove("show");
         },3000);
-        this.reset();
+        form.reset();
    });
 });
