@@ -231,32 +231,7 @@ main
     flex-direction: column;
     gap:30px;
 }
-#toast
-{
-    background-color: rgb(35, 89, 137);
-    padding: 15px 10px;
-    width:fit-content;
-    height:50px;
-    font-size: 1rem;
-    border-radius: 6px;
-    position: relative;
-    visibility: hidden;
-}
 
-#toast.show
-{
-    visibility: visible;
-    animation: fadein 0.5s fadeout 0.5s 2s;
-}
-
-@keyframes fadein {
-    from{bottom:0px; opacity: 0;}
-    to{bottom: 30px; opacity: 1;}
-}
-@keyframes fadeout {
-    from{bottom:30px; opacity: 1;}
-    to{bottom: 0px; opacity: 0;}
-}
 
 input
 {
