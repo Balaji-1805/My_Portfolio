@@ -282,8 +282,8 @@ footer
   }
 
   ul {
-    flex-direction: row;
-    gap: 10px;
+    flex-direction:row;
+    gap: 9px;
   }
 
   .about-me {
